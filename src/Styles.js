@@ -114,7 +114,6 @@ color: #ffffffb8;
   }
 `;
 
-
 export const Body = styled.div`
 
 display: flex;
