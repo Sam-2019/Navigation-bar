@@ -1,7 +1,8 @@
 import React from "react";
+import {Body} from '../Styles'
 
 const User = () => {
-  return <div>Profile</div>;
+  return <Body>Profile</Body>;
 };
 
 export default User;

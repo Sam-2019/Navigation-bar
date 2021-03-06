@@ -1,7 +1,8 @@
 import React from "react";
+import {Body} from '../Styles'
 
 const Search = () => {
-  return <div>Search</div>;
+  return <Body>Search</Body>;
 };
 
 export default Search;

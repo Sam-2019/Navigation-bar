@@ -1,7 +1,8 @@
 import React from "react";
+import {Body} from '../Styles'
 
 const Home = () => {
-  return <div>Home</div>;
+  return <Body>Home</Body>;
 };
 
 export default Home;
