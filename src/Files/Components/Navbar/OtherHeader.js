@@ -1,6 +1,7 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
 import { BackIcon, Share } from "../Icons";
+import { Section1, Section4 } from "../../../Styles";
 
 const OtherHeader = () => {
   let activeHeader;
@@ -29,11 +30,11 @@ const OtherHeader = () => {
 
   return (
     <>
-      <div className="section-1">
+      <Section1>
         <BackIcon />
         <span className="header-text">{text}</span>
         <span className="header-text2">{productText}</span>
-      </div>
+      </Section1>
 
       {activeHeader}
     </>
@@ -43,11 +44,11 @@ const OtherHeader = () => {
 export default OtherHeader;
 
 const Search = () => {
-  return <div className="section-4">Hi</div>;
+  return <Section4>Hi</Section4>;
 };
 
 const Cart = () => {
-  return <div className="section-4">Hi</div>;
+  return <Section4>Hi</Section4>;
 };
 
 const Product = () => {
@@ -55,5 +56,5 @@ const Product = () => {
 };
 
 const User = () => {
-  return <div className="section-4">Hi</div>;
+  return <Section4>Hi</Section4>;
 };
