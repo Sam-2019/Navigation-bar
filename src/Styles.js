@@ -2,7 +2,30 @@ import { createGlobalStyle } from "styled-components";
 import styled from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
 
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+  
+.item {
+  border: 1px solid #ff0000;
+}
 `;
 
 export const Section1 = styled.span`
@@ -92,13 +115,13 @@ export const IconWrapper = styled.span`
 `;
 
 export const IconWrapper2 = styled.span`
-background-color: #c4c4c4;
-padding: 8px;
-width: 30px;
-height: 30px;
-border-radius: 50%;
-box-shadow: 0px 0px 2px #888;
-color: #ffffffb8;
+  background-color: #c4c4c4;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #888;
+  color: #ffffffb8;
 
   &:hover {
     color: #00ff11;
@@ -115,15 +138,15 @@ color: #ffffffb8;
 `;
 
 export const Body = styled.div`
-display: flex;
-justify-content: center;
+  display: flex;
+  justify-content: center;
 
-@media (max-width: 540px) {
-}
+  @media (max-width: 540px) {
+  }
 
-@media (max-width: 320px) {
-}
+  @media (max-width: 320px) {
+  }
 
-@media (max-width: 280px) {
-}
-`
+  @media (max-width: 280px) {
+  }
+`;
