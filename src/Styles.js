@@ -113,3 +113,19 @@ color: #ffffffb8;
   @media (max-width: 280px) {
   }
 `;
+
+
+export const Body = styled.div`
+
+display: flex;
+justify-content: center;
+
+@media (max-width: 540px) {
+}
+
+@media (max-width: 320px) {
+}
+
+@media (max-width: 280px) {
+}
+`
