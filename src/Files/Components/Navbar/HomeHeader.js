@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { NavLink } from "react-router-dom";
 import { UserIcon, CartIcon, SearchIcon, JustifyIcon } from "../Icons";
-import { Section1, Section2, Section3, Section4 } from "../../../Styles";
+import { Section1, Section2 } from "../../../Styles";
 
 const CompanyName = styled.span`
   font-size: 20px;
