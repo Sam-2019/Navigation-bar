@@ -66,3 +66,50 @@ export const Section4 = styled.span`
   @media (max-width: 280px) {
   }
 `;
+
+export const IconWrapper = styled.span`
+  background-color: #e8e8e8;
+  padding: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  box-shadow: 0px 0px 2px #888;
+  color: #000000b8;
+
+  &:hover {
+    background-color: #00c8ff46;
+    color: #0040ff;
+  }
+
+  @media (max-width: 540px) {
+  }
+
+  @media (max-width: 320px) {
+  }
+
+  @media (max-width: 280px) {
+  }
+`;
+
+export const IconWrapper2 = styled.span`
+background-color: #c4c4c4;
+padding: 8px;
+width: 30px;
+height: 30px;
+border-radius: 50%;
+box-shadow: 0px 0px 2px #888;
+color: #ffffffb8;
+
+  &:hover {
+    color: #00ff11;
+  }
+
+  @media (max-width: 540px) {
+  }
+
+  @media (max-width: 320px) {
+  }
+
+  @media (max-width: 280px) {
+  }
+`;
