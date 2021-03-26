@@ -1,6 +1,6 @@
 import React from "react";
 import { useParams } from "react-router-dom";
-import {Body} from '../Styles'
+import { Body } from "../../Styles";
 
 const Product = () => {
   let { id } = useParams();

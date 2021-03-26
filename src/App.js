@@ -1,11 +1,13 @@
-import "./styles.css";
 import Navigation from "./Files/Navigation";
 import { GlobalStyle } from "./Styles";
 
-export default function App() {
-  return;
-  <>
-    <GlobalStyle />
-    <Navigation />
-  </>;
+function App() {
+  return (
+    <>
+      <GlobalStyle />
+      <Navigation />
+    </>
+  );
 }
+
+export default App;
